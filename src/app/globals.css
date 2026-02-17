@@ -43,6 +43,7 @@
   font-size: 14px;
   line-height: 1.5;
   tab-size: 2;
+  color: hsl(var(--background));
 }
 
 .code-editor textarea {

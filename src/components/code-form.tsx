@@ -90,13 +90,6 @@ export function CodeForm({ onSubmit, isLoading }: CodeFormProps) {
             padding={16}
             className="code-editor min-h-[200px]"
             textareaClassName="outline-none"
-            style={{
-              fontFamily:
-                '"Fira Code", "Fira Mono", Menlo, Consolas, monospace',
-              fontSize: 14,
-              color: "#e1e4e8",
-              minHeight: "200px",
-            }}
             placeholder="Paste your code here (30-500 characters)..."
           />
         </div>
