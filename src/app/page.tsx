@@ -62,7 +62,7 @@ export default function HomePage() {
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Sidebar - Submission History */}
           <aside className="w-full lg:w-80 lg:shrink-0 order-2 lg:order-1">
-            <div className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-8rem)] lg:overflow-hidden">
+            <div className="lg:sticky lg:top-6 lg:h-[calc(100vh-8rem)]">
               <SubmissionHistory />
             </div>
           </aside>
