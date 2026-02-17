@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Submission {
+  id        String   @id @default(cuid())
+  code      String
+  language  String
+  feedback  String
+  rating    String?
+  createdAt DateTime @default(now())
+}

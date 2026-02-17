@@ -1,0 +1,47 @@
+{
+  "name": "codereview-mentor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "db:generate": "prisma generate",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@trpc/server": "^10.45.2",
+    "@trpc/client": "^10.45.2",
+    "@trpc/react-query": "^10.45.2",
+    "@tanstack/react-query": "^4.36.1",
+    "@prisma/client": "^5.20.0",
+    "ai": "^3.4.0",
+    "@ai-sdk/openai": "^0.0.66",
+    "zod": "^3.23.8",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.3",
+    "lucide-react": "^0.447.0",
+    "superjson": "^2.2.1",
+    "prismjs": "^1.29.0",
+    "react-simple-code-editor": "^0.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^20.16.10",
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@types/prismjs": "^1.26.4",
+    "prisma": "^5.20.0",
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20"
+  }
+}
