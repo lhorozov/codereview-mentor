@@ -163,7 +163,6 @@ export async function POST(req: Request) {
         const { code, language } = parsed.data;
 
         // Check for mock mode
-        console.log(process.env.USE_MOCK_AI, process.env.USE_MOCK_AI === "true");
         if (process.env.USE_MOCK_AI === "true") {
             console.log("Using mock AI mode for language:", language);
             return streamMockResponse(getMockFeedback(language), code, language);

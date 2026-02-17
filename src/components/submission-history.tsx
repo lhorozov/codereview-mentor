@@ -20,15 +20,6 @@ import {
   X,
 } from "lucide-react";
 
-interface Submission {
-  id: string;
-  code: string;
-  language: string;
-  feedback: string;
-  rating: string | null;
-  createdAt: Date;
-}
-
 export function SubmissionHistory() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
