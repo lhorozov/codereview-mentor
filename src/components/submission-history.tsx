@@ -36,9 +36,7 @@ export function SubmissionHistory() {
     data: submissions,
     isLoading,
     error,
-  } = trpc.submissions.getAll.useQuery(undefined, {
-    refetchInterval: 5000,
-  });
+  } = trpc.submissions.getAll.useQuery();
 
   const utils = trpc.useUtils();
 
